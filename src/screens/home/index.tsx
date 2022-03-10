@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, StyleSheet, TextInput } from 'react-native';
+import { View, Text, StyleSheet} from 'react-native';
 import { Button } from 'react-native-elements';
 import { Icon } from 'react-native-elements/dist/icons/Icon';
 
@@ -25,6 +25,16 @@ export function Homescreen (props: HomescreenProps) {
         </View>
 
         <View style={styles.container2}>
+            
+            <View style={{flexDirection: 'row', justifyContent:'space-between', padding: 15}}>
+
+                <Button icon = {{backgroundColor: '#444140', name: 'flight', color: '#FFF'}}></Button>
+                <Button icon = {{backgroundColor: '#444140', name: 'home', color: '#FFF'}}></Button>
+                <Button icon = {{backgroundColor: '#444140', name: 'local-dining', color: '#FFF'}}></Button>
+                <Button icon = {{backgroundColor: '#444140', name: 'direction-car', color: '#FFF'}}></Button>
+                <Button icon = {{backgroundColor: '#444140', name: 'build', color: '#FFF'}}></Button>
+
+            </View>
             
             <View style={styles.card1}>
                 <Text style={styles.cardTitulo1}>Pizza (R$30)</Text>
@@ -115,7 +125,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFF',
         padding: 25,
         borderRadius: 15,
-        marginTop: 100,
+        marginTop: 10,
         marginHorizontal: 15,
     },
 
