@@ -28,11 +28,11 @@ export function Homescreen (props: HomescreenProps) {
             
             <View style={{flexDirection: 'row', justifyContent:'space-between', padding: 15}}>
 
-                <Button icon = {{backgroundColor: '#444140', name: 'flight', color: '#FFF'}}></Button>
-                <Button icon = {{backgroundColor: '#444140', name: 'home', color: '#FFF'}}></Button>
-                <Button icon = {{backgroundColor: '#444140', name: 'local-dining', color: '#FFF'}}></Button>
-                <Button icon = {{backgroundColor: '#444140', name: 'direction-car', color: '#FFF'}}></Button>
-                <Button icon = {{backgroundColor: '#444140', name: 'build', color: '#FFF'}}></Button>
+                <Button icon = {{name: 'flight', color:'#FFF'}} buttonStyle = {{backgroundColor: '#444140'}}></Button>
+                <Button icon = {{name: 'home', color:'#FFF'}} buttonStyle = {{backgroundColor: '#444140'}}></Button>
+                <Button icon = {{name: 'local-dining', color:'#FFF'}} buttonStyle = {{backgroundColor: '#444140'}}></Button>
+                <Button icon = {{name: 'direction-car', color:'#FFF'}} buttonStyle = {{backgroundColor: '#444140'}}></Button>
+                <Button icon = {{name: 'build', color:'#FFF'}} buttonStyle = {{backgroundColor: '#444140'}}></Button>
 
             </View>
             
